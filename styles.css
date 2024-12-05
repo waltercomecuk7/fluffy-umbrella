@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+section p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+section ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
